@@ -1,0 +1,89 @@
+<?php>
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+  <title>Find BirthDay</title> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1"> 
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>  
+  <link href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css" />  
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/i18n/jquery-ui-i18n.min.js"></script>  
+     <!--formden.js communicates with FormDen server to validate fields and submit via AJAX -->
+  <script type="text/javascript" src="https://formden.com/static/cdn/formden.js"></script>
+
+  <!-- Special version of Bootstrap that is isolated to content wrapped in .bootstrap-iso -->
+  <link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
+
+  <!--Font Awesome (added because you use icons in your prepend/append)-->
+  <link rel="stylesheet" href="https://formden.com/static/cdn/font-awesome/4.4.0/css/font-awesome.min.css" />
+
+</head>
+  <body class="p-r" id="overlay-none" >
+    <div class="container fullscreen-container">
+      <br>
+      <div class="row m-80" id="">
+        <form name="myForm" id="simpleform" class="was-validated" required>
+        <div class="col-sm-12">
+          <label for="dateofbirth">Enter Date Of Birth</label>        
+          <div class="bootstrap-iso">
+           <div class="form-group ">        
+              <div class="input-group input-box">       
+                <input class="form-control" id="dtdateofbirth" name="date" placeholder="dd-mm-yyyy" type="text" autocomplete="off">
+              </div>         
+           </div> 
+          </div>
+        </div>
+        <div class="col-sm-12 submit-btn">
+          <button type="button" id="submit" class="common-btn"  value="submit" data-bs-toggle="modal" data-bs-target="#staticBackdrop">submit</button>
+        </div>
+      </form>
+      </div>
+       <div class="col-sm-12" id="bdays1" hidden>
+        <h1>A 90-Year Human Life in <span>Months</span></h1>
+        <p>Each row is <span id="monthvalue">0</span> Months = <span id="yearvalue">0</span> Years</p>
+        </div>
+      </div>
+      <div  id="bdays" hidden >
+      </div>
+    </div>
+  <div class="modal content" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Notification</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="model-body">
+          <p>Date of birth is not valid</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.js"></script>
+  <script type="text/javascript" src="./js/general.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://momentjs.com/downloads/moment.min.js"></script>
+  <!-- Include Date Range Picker -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+ <!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+  
+  <script>
+    
+  </script>
+
+    
+  </body>
+</html>
+
+</?php>

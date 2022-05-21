@@ -1,0 +1,103 @@
+.circle {height: 20px;border:1px solid #c1ecf3;   border-radius: 50%;display: inline-block;width: 20px;text-align: center;color: white;}
+.circle:not(:last-child) {margin-right: 9px;}
+.circlebg {background-color: #caf5fe;}
+#bdays .col-sm-12:first-child .circle:first-child{background-color: red;}
+input {padding: 10px;font-size: 20px;width: 100%;border: none;border-radius: 0;border-bottom:1px solid #fff ;color: #000;}
+input:active, .row input:focus, input:active, .row input:focus-visible{outline: none;}
+.common-btn{    display: inline-grid;padding: 13px 40px;background: #da9216;color: #fff;font-size: 18px;line-height: 20px;text-transform: capitalize;border: none;border: 1px solid #da9216;-webkit-transition: all 0.5s ease-in-out;-moz-transition: all 0.5s ease-in-out;-ms-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;}
+body{background-color: #f3fdff !important;}
+.common-btn:hover, .common-btn:active{background-color: #fff;color: #da9216;}
+.submit-btn{    margin: 30px auto;text-align: center;}
+input::-webkit-input-placeholder { color: #f3f3f3;}
+input::-moz-placeholder { color: #f3f3f3;}
+input:-ms-input-placeholder {color: #f3f3f3;}
+input:-moz-placeholder { color: #f3f3f3;}
+[type="date"]{width: 30%;margin: 0 auto;text-align: center;}
+.col-sm-12{text-align: center;}
+[type="date"] {box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset; background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;}
+[type="date"]::-webkit-inner-spin-button {display: none;}
+[type="date"]::-webkit-calendar-picker-indicator {opacity: 0;}
+label {display: block !important;color: #000;font-size: 15px;    font-size: 18px;line-height: 30px;text-transform: capitalize;text-align: center;margin-bottom: 15px;}
+#bdays1 p{ position: relative;color: #da9216;text-align: center;font-size: 22px;line-height: 40px;margin-bottom: 40px;}
+#bdays1 h1{color: #000;margin: 10px 0;text-align: center;font-size: 40px;line-height: 50px;font-weight: 600;}
+span#\31 {background-color: #c1ecf3;position: relative;}
+span#\31 :after {content: 'Birth';position: absolute;color: #da9216;width:20%;font-size: 22px;font-weight: 500;
+line-height: 25px;letter-spacing: 2px;text-transform: capitalize;top: -4px;left: -95px;}
+span#\31:before {background: url(../images/arrow.png)no-repeat;content: '';
+background-size: 50%;left: -35px;bottom: -52px;position: absolute;height: 70px;
+width: 60px;}
+span#\33 61 {background-color: #c1ecf3;position: relative;}
+span#\33 61:after {content: '30th Birthday';position: absolute;color: #da9216;width:20%;font-size: 22px;font-weight: 500;line-height: 25px;letter-spacing: 2px;text-transform: capitalize;
+top: -4px;left: -135px;}
+span#\33 61:before {background: url(../images/arrow.png)no-repeat;content: '';
+background-size: 50%;left: -35px;bottom: -52px;position: absolute;height: 70px;
+width: 60px;}
+.input-box{width: 30% !important;margin: 0 auto;background-color: #f3fdff;}
+span#\37 21 {background-color: #c1ecf3;position: relative;}
+span#\37 21:after {content: '60th Birthday';position: absolute;color: #da9216;width:20%;font-size: 22px;font-weight: 500;line-height: 25px;letter-spacing: 2px;text-transform: capitalize;top: -4px;
+left: -137px;}
+span#\37 21:before {background: url(../images/arrow.png)no-repeat;content: '';
+background-size: 50%;left: -35px;bottom: -52px;position: absolute;height: 70px;
+width: 60px;}
+span#\31 080 {background-color:#c1ecf3;position: relative;}
+span#\31 080:after {content: 'Turning 90';position: absolute;color: #da9216;width:20%;font-size: 22px;font-weight: 500;line-height: 25px;letter-spacing: 2px;text-transform: capitalize;top: 30px;
+left: 14px;}
+span#\31 080:before {background: url(../images/turn.png)no-repeat;content: '';
+background-size: 80%;left: 24px;bottom: -53px;position: absolute;height: 70px;
+width: 60px;}
+/*.content {border-radius: 20px;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);width: 450px;height: 170px;text-align: center;background-color: #e8eae6;box-sizing: border-box;
+font: message-box;padding: 10px;z-index: 100;display: none;}    */      
+.close-btn {position: absolute;right: 20px;top: 2px;color: #da9216;border-radius: 50%;padding: 4px;font-size: 40PX;}
+/*.content h3 {    font-size: 23PX;text-align:center;padding: 28px 0px;text-transform: capitalize;}*/
+.fullscreen-container {top: 0;bottom: 0;left: 0;right: 0;z-index: 9999;}
+body{position: relative;height: 100vh;}
+/*#overlay {position: fixed;width: 100%;height: 100%;top: 0;left: 0;right: 0;bottom: 0;background-color: rgba(0, 0, 0, 0.35);z-index: 2;cursor: pointer;display: block;}*/
+ .input-box { border: 1px solid #fff;outline: none;}
+.form-group{background: #f3fdff !important;}       
+input#dtdateofbirth {box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;border: none;outline: none;}
+/* .input-box {box-shadow: rgb(0 0 0 / 25%) 0px 0.0625em 0.0625em, rgb(0 0 0 / 25%) 0px 0.125em 0.5em, rgb(255 255 255 / 10%) 0px 0px 0px 1px inset;
+border: 1px solid #fff;outline: none;}
+.form-group{background: #f3fdff !important;}   */
+/* Media Query Responsive */
+@media only screen and (max-width: 1360px) {
+  .circle{width: 15px;    height: 15px;}
+  #bdays{width: 80%;margin: 0 auto;}
+  span#\31:before, span#\33 61:before, span#\37 21:before{ bottom: -54px;}
+  span#\31:after, span#\33 61:after, span#\37 21:after{top: -10px;}
+  span#\31 080:before{left: 13px;bottom: -60px;}
+}
+@media only screen and (max-width: 1200px) {
+  .circle{width: 10px;  height: 10px;}
+  #bdays{width: 70%;margin: 0 auto;}
+  span#\31:before, span#\33 61:before, span#\37 21:before{ bottom: -33px; height: 45px;width: 45px;}
+  span#\31:after, span#\33 61:after, span#\37 21:after{top: -10px;font-size: 18px;left: -106px;}
+  span#\31 080:before{left: 16px;bottom: -35px;height: 45PX;width: 45PX;}
+  span#\31 080:after{font-size: 20px;top: 20px;}
+}
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 999px) {
+  #bdays1 h1{font-size: 35px;line-height: 45px;}
+  .circle{width: 10px;  height: 10px;}
+  #bdays{width: 60%;margin: 0 auto;}
+}
+@media only screen and (max-width: 768px) {
+  .common-btn{padding: 6px 20px;font-size: 16px;}
+  #bdays1 h1{ font-size: 30px;line-height: 30px;}
+  #bdays1 p {margin-bottom: 20px;font-size: 20px;line-height: 20px;}
+  #bdays{width: 80%;}  
+  span#\31:before, span#\33 61:before, span#\37 21:before {bottom: -25px;height: 35px;width: 35px;left: -25px;}
+  span#\31:after, span#\33 61:after, span#\37 21:after {top: -10px;font-size: 14px;left: -76px;}
+  span#\31 080:after{font-size: 14px;}
+}
+@media only screen and (max-width: 641px) {
+  .input-box{width: 60% !important;}
+  #bdays1 h1 {font-size: 26px;line-height: 30px;}
+  .circle:not(:last-child) {margin-right: 13px;}
+}
+@media only screen and (max-width: 480px) {
+  #bdays1 h1 {font-size: 20px;line-height: 24px;}
+  #bdays1 p{font-size: 16px;line-height: 14px;}
+  .circle:not(:last-child) {margin-right: 4px;}
+  span#\31:after, span#\33 61:after, span#\37 21:after{font-size: 13px;left: -76px;}
+}
